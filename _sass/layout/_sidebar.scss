@@ -22,6 +22,7 @@
     overflow-y: auto;               // Add scrollbar if the sidebar is too long
     position: fixed;
     padding-top: $masthead-height;
+    padding-bottom: 9em;            // Match body padding-bottom so footer doesn't cover sidebar content
   }
 
   @include breakpoint($large) {
