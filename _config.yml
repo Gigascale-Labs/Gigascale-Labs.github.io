@@ -23,7 +23,7 @@ repository               : "Gigascale-Labs/Gigascale-Labs.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "logo.png"
   name             : "Gigascale Laboratories"
   pronouns         : # 
   bio              : "Making AI safe for use at societal scale."
