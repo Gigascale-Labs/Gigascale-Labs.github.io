@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Gigascale Labs is an AI safety lab working on large-scale multi-agents systems problems."
+tab_title: ""
 redirect_from: 
   - /about/
   - /about.html
