@@ -1,0 +1,65 @@
+# Frontmatter Schema
+
+Valid parameters for the YAML frontmatter (`---`) of pages and posts.
+
+---
+
+## Shared (Pages & Posts)
+
+| Parameter | Type | Description |
+|---|---|---|
+| `title` | string | Displayed as the page/post heading. |
+| `tab_title` | string | Browser tab title prefix. Overrides `title` in the tab bar. Set to `""` to show only the site name. Defaults to `title` if absent. |
+| `description` | string | Meta description for SEO. Defaults to `excerpt` then `site.description`. |
+| `excerpt` | string | Short summary. Auto-generated from content if omitted. |
+| `permalink` | string | URL path for the page, e.g. `/about/`. |
+| `layout` | string | Layout template to use. Options: `single`, `archive`, `splash`, `talk`. Defaults set in `_config.yml`. |
+| `author` | string | Single author key matching an entry in `_data/authors.yml`. |
+| `authors` | list of strings | Multiple author display names, e.g. `["Alice", "Bob"]`. |
+| `author_profile` | boolean | Show the author sidebar. Default: `true`. |
+| `sidebar` | object | Custom sidebar. Sub-keys: `nav` (nav list key), `title` (sidebar heading). |
+| `header` | object | Hero image/banner. See [Header sub-keys](#header-sub-keys) below. |
+| `categories` | list of strings | Post categories. |
+| `tags` | list of strings | Post tags. |
+| `redirect_from` | list of strings | Legacy URLs that redirect to this page. |
+| `comments` | boolean | Enable comments section. Default: `true` for posts. |
+| `share` | boolean | Show social share buttons. Default: `true` for posts. |
+| `analytics` | object | Per-page analytics override. |
+
+---
+
+## Posts only (`_posts/`)
+
+| Parameter | Type | Description |
+|---|---|---|
+| `date` | date | Publication date, e.g. `2024-03-17`. Normally encoded in the filename (`YYYY-MM-DD-title.md`). |
+| `modified` | date | Last modified date. |
+| `read_time` | boolean | Show estimated read time. Default: `true`. |
+| `related` | boolean | Show related posts at the bottom. Default: `true`. |
+| `link` | string | External URL — makes the post title link there instead of to the post itself. |
+| `type` | string | Post type identifier, used for structured data. |
+| `citation` | string | Academic citation text. |
+| `paperurl` | string | URL to a paper PDF or page. |
+| `slidesurl` | string | URL to slides. |
+| `bibtexurl` | string | URL to a BibTeX file. |
+| `venue` | string | Conference or journal name. |
+
+---
+
+## `header` sub-keys
+
+Used as:
+```yaml
+header:
+  image: /images/my-image.jpg
+```
+
+| Sub-key | Type | Description |
+|---|---|---|
+| `image` | path | Full-width header image (no overlay). |
+| `overlay_image` | path | Full-width header image with text overlaid on top. |
+| `overlay_color` | hex string | Solid colour overlay, e.g. `"#333"`. Used when no image is set. |
+| `overlay_filter` | number or string | Darkens `overlay_image`. Float `0`–`1` for opacity, or a CSS rgba string. |
+| `caption` | string | Caption text shown over the image. Markdown supported. |
+| `cta_label` | string | Call-to-action button label. |
+| `cta_url` | string | Call-to-action button URL. |

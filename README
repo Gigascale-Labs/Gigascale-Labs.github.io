@@ -2,6 +2,17 @@
 
 Forked from the Academic Pages template on GitHub.
 
+## Excluding files from the build
+
+To prevent a file from being included in the Jekyll build output, add its filename to the `exclude` list in `_config.yml`:
+
+```yaml
+exclude:
+  - YOUR_FILE.md
+```
+
+Files starting with `_` are automatically excluded by Jekyll without needing a config entry.
+
 ## Running locally
 
 When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
@@ -79,6 +90,8 @@ If you are using [Visual Studio Code](https://code.visualstudio.com/) you can us
     - `authors` must match keys defined in `_data/authors.yml` exactly. If omitted, the post will show the site-level author (Gigascale Laboratories).
     - `tags` are optional but will appear on the post and tag archive pages.
     - `permalink` should match the date and slug in your filename.
+
+    Other valid headers are contained in FRONTMATTER_SCHEMA, which can be rendered as markdown.
 
 3. Write your post content in Markdown below the closing `---`.
 
