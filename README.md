@@ -108,6 +108,23 @@ If you are using [Visual Studio Code](https://code.visualstudio.com/) you can us
 
 5. Commit and push your changes. GitHub Pages will automatically rebuild and publish the site.
 
+## Pulling branding updates from the template
+
+This repo is used as a GitHub template. Repos created from it don't have an automatic link back, but you can pull in branding updates (layouts, styles, includes) manually by adding the template as an upstream remote:
+
+```bash
+git remote add upstream https://github.com/Gigascale-Labs/gigascale-pages-format.git
+git fetch upstream
+git merge upstream/master --allow-unrelated-histories
+```
+
+You will likely see merge conflicts in files you've customised (e.g. `_config.yml`, `_posts/`). Keep your versions of those and accept the upstream changes for branding files (`_sass/`, `_layouts/`, `_includes/`, `assets/`). Once resolved:
+
+```bash
+git add .
+git commit -m "chore: merge branding updates from template"
+```
+
 # Maintenance
 
 Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
