@@ -108,6 +108,29 @@ If you are using [Visual Studio Code](https://code.visualstudio.com/) you can us
 
 5. Commit and push your changes. GitHub Pages will automatically rebuild and publish the site.
 
+## Setting a social media preview image
+
+When the site is shared on LinkedIn or other social platforms, it will display a preview image using the [Open Graph protocol](https://ogp.me/).
+
+To set a default preview image for the whole site:
+
+1. Add your image to the `/images/` directory (e.g., `images/preview.png`). LinkedIn recommends **1200×627px**.
+
+2. Set `og_image` in `_config.yml`:
+
+    ```yaml
+    og_image: preview.png  # filename in /images/
+    ```
+
+To override the image for a specific page, set `header.image` or `header.overlay_image` in that page's front matter:
+
+```yaml
+header:
+  overlay_image: my-page-image.png  # filename in /images/, or a full URL
+```
+
+You can verify the preview at [LinkedIn's Post Inspector](https://www.linkedin.com/post-inspector/) by pasting your site URL.
+
 ## Pulling branding updates from the template
 
 This repo is used as a GitHub template. Repos created from it don't have an automatic link back, but you can pull in branding updates (layouts, styles, includes) manually by adding the template as an upstream remote:
