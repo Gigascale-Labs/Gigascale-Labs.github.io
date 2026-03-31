@@ -50,7 +50,7 @@ We're especially enthusiastic to invite students and early-career researchers to
 
 Positions are currently voluntary as we are pre-funding. We support researchers with grant-writing and provide compute and administrative support.
 
-Please get in touch by filling out this form: [link](https://www.gigascale-labs.org/). 
+Please get in touch by filling out this form: [link](https://docs.google.com/forms/d/e/1FAIpQLScCfKqSckjdVTji0UDPrqkqc_wtsMNqJ3KZ2QtKCmNMkdBVxQ/viewform). 
 
 ## References
 
