@@ -1,75 +1,58 @@
 ---
 permalink: /
-title: "What happens in a system of a billion AI agents?"
-tab_title: ""
+title: "The world is not prepared for influential agentic AI."
+tab_title: "Gigascale Laboratories"
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Human systems shouldn't be a living experiment - but we're not prepared for a world where autonomous AIs are as numerous as humans.
+With increasing automation, the marginal influence of humans decreases across a range of important systems, from governance to cultural production. We believe the current trend of automation will result in a substantial share of human decision-making being delegated to agentic AI by the mid-2030s.
 
-## The problem
+Without mitigations, increasing agent influence over human society will gradually disempower humans from their culture, states, and economies.[^kulveit] Practical methods to address these emerging harms are still nascent.
 
-AIs already inhabit billion-scale systems with humans,[^tom2] and their prominence continues to grow in economies, social networks, and workplaces.[^soaa] However, AI safety has traditionally focused on individuals and small groups of agents, leaving large-scale systems of many agents relatively unexplored.[^tom1]
+We are developing empirical measures and practical interventions to mitigate gradual disempowerment. 
 
-Factors like communication cost and clashing preferences means, "more is different,"[^mid] and single-agent safety research doesn't carry over well to big systems.[^mara] [^ratg] Major labs often focus on small-systems work or conceptual investigations of large systems, while there is limited safety work on real large systems, or connecting established small systems safety to large systems settings.
+Our first project involves simulating social networks of AI and humans, to measure and steer aggregate human influence over this important information environment. We are developing measures of agent influence over social media and using them to test methods for diminishing AI influence, such as pro-human recommendation algorithms. We aim to develop methods system operators and regulators need to maintain human influence over the system. 
 
-Human infrastructure was not designed to handle numerous fast, autonomous, flexible AIs. Social media systems have failed to manage AI-driven misinformation, contributing to polarisation and erosion of democratic institutions.[^frontiers1] Simpler fast, autonomous algorithms have led to wealth-erasing financial crashes[^destab] and accidental, inefficient, illegal price coordination on digital marketplaces.[^collude] These system failures are early examples of how destabilising volatility and unwanted coordination could impact billion-scale AI and hybrid systems. 
+Our team brings backgrounds in economics, distributed computing, and physical systems to bear on large systems safety problems for the public benefit.
 
-Furthermore, several lines of research have highlighted the potential for accidental emergence of superintelligence from large multi-agent systems,[^drexler] [^bostrom] [^tom1] carrying potentially catastrophic risks.
+## FAQ
 
-## What can be done
+### Why social media?
 
-As systems scale to a billion agents, the problem shifts from the individual to the collective. New theory, methods, and experiments are needed across:
-- designing safe systems for many AI
-- efficiently simulating large-scale AI and hybrid systems
-- efficient monitoring of systems where central monitoring of every agent would be too expensive
-- federated interpretability - safety monitoring which uses the agent's host device to verify its behaviour is safe, preserving privacy and distributing the cost of safety across the system
-- understanding and predicting system behaviour from network properties, without looking at any individual agent
-- controlling systems of AIs by moderating individual or collective behaviour.
+Social media is a cornerstone of the modern information environment, affecting belief and behaviour at scale. (ref) AI influence there could diminish human influence over a primary information environment, disempowering humans in culture and politics.
 
-Out-of-scope for this problem are single-agent and small-systems research not in direct service of large-systems research.
+Social media already rewards cultural content which is irrelevant or harmful to humans.[^milli] It can change citizens' political opinions[^allcott] and has been used to spread state propaganda, a means of reducing state responsiveness to citizens.[^king] These are all vectors of disempowerment or reinforcement discussed in ([^kulveit]).
 
-## Getting involved
+### Why do you target system operators and regulators?
 
-Gigascale Laboratories is a research collective founded in 2026 to investigate this research agenda.
+Large agent groups problems, including disempowerment, are collective action problems: individual model developers are incentivised to solve problems caused explicitly by their models, not those that emerge from the interaction of many agents from different developers.
 
-The best way to learn about big AI systems is to bridge the gap between AI safety and existing systems sciences, so we're looking for researchers across:
-- AI safety
-- network science
-- complex systems science
-- economics
-- physics
-- epidemiology
-- and other systems disciplines,
+The interest in solving the problem lies in pro-democratic regulators, who can compel operators of information infrastructure to take steps in favour of human empowerment.
 
-as well as software engineers interested in scaling research into useful tooling.
+### How does this relate to existential risk?
 
-We're especially enthusiastic to invite students and early-career researchers to join us. If you're interested, don't hesitate to get in touch - we're open to applications from curious, self-driven people from all backgrounds and qualifications. 
+Our principal focus is gradual disempowerment. However, progress on this problem contributes measures and controls for AI influence in large agent networks. These methods could be used to measure or diminish unwanted collaboration between networked agents, which is important for reducing the propensity for unwanted emergence of distributional AGI[^tomasev] or comprehensive AI services.[^drexler]
 
-Positions are currently voluntary as we are pre-funding. We support researchers with grant-writing and provide compute and administrative support.
+### What are your long-term goals?
 
-Please get in touch by filling out this form: [link](https://docs.google.com/forms/d/e/1FAIpQLScCfKqSckjdVTji0UDPrqkqc_wtsMNqJ3KZ2QtKCmNMkdBVxQ/viewform). 
+We aim to develop pipelines for modelling intervention effects on gradual disempowerment across a range of important human systems.
+
+### How can I get in touch?
+
+Please contact us [here](https://forms.gle/cUtcQqxjYQnTcubGA).
 
 ## References
 
-[^tom1]: Tomašev, Nenad, Matija Franklin, Julian Jacobs, Sébastien Krier, and Simon Osindero. 2025. “Distributional AGI Safety.” arXiv:2512.16856. Preprint, arXiv, December 18. [https://doi.org/10.48550/arXiv.2512.16856](https://doi.org/10.48550/arXiv.2512.16856).
+[^alcott]: Hunt Allcott, Luca Braghieri, Sarah Eichmeyer, and Matthew Gentzkow. 2020. The Welfare Effects of Social Media. American Economic Review, 110(3):629–676.
 
-[^tom2]: Tomasev, Nenad, Matija Franklin, Joel Z. Leibo, et al. 2025. “Virtual Agent Economies.” arXiv:2509.10147. Preprint, arXiv, September 12. [https://doi.org/10.48550/arXiv.2509.10147](https://doi.org/10.48550/arXiv.2509.10147).
+[^drexler]: K. Eric Drexler. 2019. Reframing Superintelligence: Comprehensive AI Services as General Intelligence. Technical Report 2019–1, Future of Humanity Institute, University of Oxford.
 
-[^soaa]: LangChain. 2025. _State of Agent Engineering_. [https://www.langchain.com/state-of-agent-engineering](https://www.langchain.com/state-of-agent-engineering).
+[^milli]: Smitha Milli, Micah Carroll, Yike Wang, Sashrika Pandey, Sebastian Zhao, and Anca D. Dragan. 2025. Engagement, user satisfaction, and the amplification of divisive content on social media. PNAS Nexus, 4(3):pgaf062.
 
-[^mid]: Anderson, P. W. 1972. “More Is Different.” _Science_ 177 (4047): 393–96. [https://doi.org/10.1126/science.177.4047.393](https://doi.org/10.1126/science.177.4047.393).
+[^king]: Gary King, Jennifer Pan, and Margaret E. Roberts. 2017. How the Chinese Government Fabricates Social Media Posts for Strategic Distraction, Not Engaged Argument. American Political Science Review, 111(3):484–501.
 
-[^ratg]: Reid, Alistair, Simon O’Callaghan, Liam Carroll, and Tiberio Caetano. 2025. “Risk Analysis Techniques for Governed LLM-Based Multi-Agent Systems.” arXiv:2508.05687. Preprint, arXiv, August 6. [https://doi.org/10.48550/arXiv.2508.05687](https://doi.org/10.48550/arXiv.2508.05687).
+[^kulveit]: Jan Kulveit, Raymond Douglas, Nora Ammann, Deger Turan, David Krueger, and David Duvenaud. 2025. Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development. arXiv preprint arXiv:2501.16946.
 
-[^mara]: Hammond, Lewis, Alan Chan, Jesse Clifton, et al. 2025. “Multi-Agent Risks from Advanced AI.” arXiv:2502.14143. Preprint, arXiv, February 19. [https://doi.org/10.48550/arXiv.2502.14143](https://doi.org/10.48550/arXiv.2502.14143).
-
-[^frontiers1]: Alexander Romanishyn, Olena Malytska, and Vitaliy Goncharuk. 2025. “AI-Driven Disinformation: Policy Recommendations for Democratic Resilience.” _Frontiers in Artificial Intelligence_ 8 (July). [https://doi.org/10.3389/frai.2025.1569115](https://doi.org/10.3389/frai.2025.1569115).
-
-[^destab]: U.S. Securities & Exchange Commission and U.S. Commodity Futures Trading Commission and U.S. Securities & Exchange Commission. 2010. _Findings Regarding the Market Events of May 6, 2010: Report of the Staffs of the CFTC and SEC to the Joint Advisory Committee on Emerging Regulatory Issues_. [https://www.sec.gov/files/marketevents-report.pdf](https://www.sec.gov/files/marketevents-report.pdf).
-
-[^collude]: Ezrachi, Ariel, and Maurice E. Stucke. 2015. “Artificial Intelligence & Collusion: When Computers Inhibit Competition.” _SSRN Electronic Journal_, ahead of print. [https://doi.org/10.2139/ssrn.2591874](https://doi.org/10.2139/ssrn.2591874).
-
-[^drexler]: Drexler, K. Eric. 2019. _Reframing Superintelligence_. Technical Nos. 2019–1. Future of Humanity Institute at the University of Oxford. [https://ora.ox.ac.uk/objects/uuid:9c05427a-6390-4b42-9c55-ee45f73a26ad](https://ora.ox.ac.uk/objects/uuid:9c05427a-6390-4b42-9c55-ee45f73a26ad).
+[^tomasev]: Nenad Tomašev, Matija Franklin, Julian Jacobs, Sébastien Krier, and Simon Osindero. 2025. Distributional AGI Safety. arXiv preprint arXiv:2512.16856.
