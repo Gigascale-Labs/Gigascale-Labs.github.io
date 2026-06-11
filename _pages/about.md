@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "The world is not prepared for influential agentic AI."
+title: "Even without a decisive takeoff event, influential agentic AI will transform our world."
 tab_title: "Gigascale Laboratories"
 redirect_from: 
   - /about/
