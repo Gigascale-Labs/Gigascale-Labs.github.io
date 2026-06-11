@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Even without a decisive takeoff event, influential agentic AI will transform our world."
+title: "We're keeping human systems under human control."
 tab_title: "Gigascale Laboratories"
 redirect_from: 
   - /about/
@@ -21,7 +21,7 @@ Our team brings backgrounds in economics, distributed computing, and physical sy
 
 ### Why social media?
 
-Social media is a cornerstone of the modern information environment, affecting belief and behaviour at scale. (ref) AI influence there could diminish human influence over a primary information environment, disempowering humans in culture and politics.
+Social media is a cornerstone of the modern information environment, affecting belief and behaviour at scale. AI influence there could diminish human influence over a primary information environment, disempowering humans in culture and politics.
 
 Social media already rewards cultural content which is irrelevant or harmful to humans.[^milli] It can change citizens' political opinions[^allcott] and has been used to spread state propaganda, a means of reducing state responsiveness to citizens.[^king] These are all vectors of disempowerment or reinforcement discussed in ([^kulveit]).
 
