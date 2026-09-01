@@ -45,7 +45,7 @@ Please contact us [here](https://forms.gle/cUtcQqxjYQnTcubGA).
 
 ## References
 
-[^alcott]: Hunt Allcott, Luca Braghieri, Sarah Eichmeyer, and Matthew Gentzkow. 2020. The Welfare Effects of Social Media. American Economic Review, 110(3):629–676.
+[^allcott]: Hunt Allcott, Luca Braghieri, Sarah Eichmeyer, and Matthew Gentzkow. 2020. The Welfare Effects of Social Media. American Economic Review, 110(3):629–676.
 
 [^drexler]: K. Eric Drexler. 2019. Reframing Superintelligence: Comprehensive AI Services as General Intelligence. Technical Report 2019–1, Future of Humanity Institute, University of Oxford.
 
