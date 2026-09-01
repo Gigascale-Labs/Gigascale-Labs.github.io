@@ -189,10 +189,12 @@ exclude:
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
   - README.md
+  - scripts
   - FRONTMATTER_SCHEMA
   - tmp
   - vendor
