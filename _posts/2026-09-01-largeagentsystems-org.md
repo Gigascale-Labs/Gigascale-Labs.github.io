@@ -16,8 +16,8 @@ The site has a problem definition, an org map, a survey, a daily paper scraper, 
 
 Large agent systems, or systems with thousands to billions of agents, are important because:
 
-- They have shown us the first takeover-type event, in the OpenAI Hack.[^metr] Apparently the emergent capabilities and agency discussed in Multi-Agent Risks[^hammond] are more immediate than other safety areas realised.
-- They overlap heavily with human systems. The first really big systems of agents are economic and social systems, where AI mixes in with and slowly replaces humans. This makes large agent systems safety the principal setting for disempowerment, job loss, inequality, and similar harms.
+- They have shown us the **first takeover-type event**, in the OpenAI Hack.[^metr] Apparently the emergent capabilities and agency discussed in Multi-Agent Risks[^hammond] are more immediate than other safety areas realised.
+- They **overlap heavily with human systems**. The first really big systems of agents are economic and social systems, where AI mixes in with and slowly replaces humans. This makes large agent systems safety the principal setting for disempowerment, job loss, inequality, and similar harms.
 
 Large agent systems have many different properties to smaller-scale multi-agent systems, particularly observability, decentralisation, scalable monitoring, complex coevolution of agent behaviour and system mechanisms, and a lack of datasets to validate our understanding against.
 
