@@ -13,6 +13,7 @@ We work on large agent systems safety because we believe it is urgent: imminent,
 
 Our projects have included:
 - [LargeAgentSystems.org](https://www.largeagentsystems.org), a collection of resources on large agent systems (LAS) and a global Slack community for LAS researchers;
+- [University of Sydney Paperclips](https://www.instagram.com/usyd.paperclips/), an interdisciplinary student society engaging with social challenges from AI;
 - Resimulating agentic social media to understand gradual disempowerment processes; and 
 - An evaluation of the potential to scale gradual disempowerment modelling using micro-founded social science models.
 
