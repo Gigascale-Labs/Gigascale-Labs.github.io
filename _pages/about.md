@@ -18,11 +18,9 @@ Our projects have included:
 
 Our members bring backgrounds in economics, distributed computing, and physical systems to bear on large systems safety problems for the public benefit.
 
-Please get in touch via the form on our website if you'd like to meet the team or get involved.
-
 ## Get in touch
 
-Please contact us [here](https://forms.gle/cUtcQqxjYQnTcubGA).
+Please get in touch [here](https://forms.gle/cUtcQqxjYQnTcubGA) if you'd like to meet the team or get involved.
 
 ## References
 
