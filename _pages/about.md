@@ -11,9 +11,9 @@ We're an AI safety research collective in Sydney, Australia, working on large ag
 
 We work on large agent systems safety because we believe it is urgent: imminent, significant, and under-resourced. We believe automation will delegate a substantial share of human decision-making to agentic AI by the mid-2030s. That means a variety of large-scale interactions between AI agents [^tomaseva], from labour markets to epistemic environments, and possibly a fall in human influence as humans are edged out [^kulveit]. Understanding and methods for researching large-scale agent-to-agent interaction and disempowerment are still nascent [^tomasevb].
 
-Our projects have included:
+Our members are working on:
 - [LargeAgentSystems.org](https://www.largeagentsystems.org), a collection of resources on large agent systems (LAS) and a global Slack community for LAS researchers;
-- [University of Sydney Paperclips](https://www.instagram.com/usyd.paperclips/), an interdisciplinary student society engaging with social challenges from AI;
+- [University of Sydney Paperclips](https://usyd-paperclips.github.io), an interdisciplinary student society engaging with social challenges from AI;
 - Resimulating agentic social media to understand gradual disempowerment processes; and 
 - An evaluation of the potential to scale gradual disempowerment modelling using micro-founded social science models.
 
