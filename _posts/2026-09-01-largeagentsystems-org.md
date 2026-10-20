@@ -10,7 +10,7 @@ tags:
 excerpt: "Systems of thousands to billions of agents behave differently to small multi-agent systems, and they are where AI mixes into human economic and social systems. largeagentsystems.org pools the problem definition, org map, survey, and live paper and event feeds for this area."
 ---
 
-We are pleased to share [largeagentsystems.org](https://largeagentsystems.org), a new resource we have been working on for the last couple of months. It presents resources for safety on large groups of agents.
+Our member Stephen Elliott is pleased to share [largeagentsystems.org](https://largeagentsystems.org), a new resource presenting resources for safety on large groups of agents.
 
 The site has a problem definition, an org map, a survey, a daily paper scraper, and a weekly events scraper. Together these help develop a common understanding and a basic resource pool for large agent systems safety problems.
 
