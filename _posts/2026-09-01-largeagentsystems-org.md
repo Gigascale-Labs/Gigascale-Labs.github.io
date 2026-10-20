@@ -1,5 +1,5 @@
 ---
-title: 'LargeAgentSystems.org, a Resource for Large Agent Systems Safety'
+title: '_LargeAgentSystems.org_, a Resource for Large Agent Systems Safety'
 date: 2026-09-01
 authors: ["Stephen Elliott"]
 author_profile: true
